@@ -1,0 +1,572 @@
+2023-11-02 17:14:56,232 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 6296 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:14:56,232 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:14:58,529 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:14:58,576 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 17:14:58,576 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 17:14:58,576 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 0 ms
+2023-11-02 17:14:58,607 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.865 seconds (process running for 3.934)
+2023-11-02 17:14:58,874 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.InsuranceApplicationTests]: InsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 17:14:58,890 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.InsuranceApplicationTests
+2023-11-02 17:14:58,937 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Starting InsuranceApplicationTests using Java 17.0.7 with PID 6296 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:14:58,937 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:14:59,731 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 17:14:59,778 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2023-11-02 17:15:00,219 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 17:15:00,298 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-02 17:15:00,298 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 17:15:00,504 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:15:00,504 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 17:15:00,519 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 17:15:00,868 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@270ab7bc
+2023-11-02 17:15:00,868 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 17:15:01,104 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:15:01,720 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 17:15:01,803 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:15:02,250 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 17:15:02,321 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:15:02,660 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 17:15:02,707 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Started InsuranceApplicationTests in 3.807 seconds (process running for 8.041)
+2023-11-02 17:15:02,770 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.service.InsuranceServiceImplTest]: InsuranceServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 17:15:02,770 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.service.InsuranceServiceImplTest
+2023-11-02 17:15:02,804 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Starting InsuranceServiceImplTest using Java 17.0.7 with PID 6296 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:15:02,804 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:15:03,008 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 17:15:03,016 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2023-11-02 17:15:03,088 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 17:15:03,088 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:15:03,088 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 17:15:03,088 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-02 17:15:03,261 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@22fb3dde
+2023-11-02 17:15:03,261 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-02 17:15:03,277 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:15:03,293 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 17:15:03,309 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:15:03,387 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 17:15:03,465 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:15:03,589 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 17:15:03,610 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Started InsuranceServiceImplTest in 0.825 seconds (process running for 8.941)
+2023-11-02 17:15:03,715 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:15:03,730 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 17:15:03,746 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 17:15:03,751 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:15:03,752 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-02 17:15:03,812 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2023-11-02 17:16:39,895 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 10328 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:16:39,901 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:16:42,049 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:16:42,097 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 17:16:42,097 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 17:16:42,099 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 2 ms
+2023-11-02 17:16:42,142 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.609 seconds (process running for 4.087)
+2023-11-02 17:17:30,636 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 6316 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:17:30,644 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:17:33,073 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:17:33,130 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 17:17:33,130 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 17:17:33,133 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 2 ms
+2023-11-02 17:17:33,175 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.874 seconds (process running for 4.034)
+2023-11-02 17:18:16,564 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 11756 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:18:16,567 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:18:18,662 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:18:18,703 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 17:18:18,703 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 17:18:18,704 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2023-11-02 17:18:18,735 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.524 seconds (process running for 3.494)
+2023-11-02 17:19:06,281 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 12436 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:19:06,286 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:19:08,547 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:19:08,588 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 17:19:08,588 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 17:19:08,590 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 2 ms
+2023-11-02 17:19:08,628 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.885 seconds (process running for 3.967)
+2023-11-02 17:19:48,046 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 22596 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:19:48,049 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:19:50,213 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:19:50,263 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 17:19:50,264 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 17:19:50,269 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 4 ms
+2023-11-02 17:19:50,312 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.658 seconds (process running for 3.583)
+2023-11-02 17:20:22,805 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 22840 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:20:22,807 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:20:24,965 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:20:25,006 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 17:20:25,006 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 17:20:25,010 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 3 ms
+2023-11-02 17:20:25,043 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.677 seconds (process running for 3.545)
+2023-11-02 17:32:02,078 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 14708 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:32:02,080 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:32:04,280 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:32:04,325 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 17:32:04,326 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 17:32:04,328 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 2 ms
+2023-11-02 17:32:04,362 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.776 seconds (process running for 3.643)
+2023-11-02 17:32:04,782 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.InsuranceApplicationTests]: InsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 17:32:04,789 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.InsuranceApplicationTests
+2023-11-02 17:32:04,843 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Starting InsuranceApplicationTests using Java 17.0.7 with PID 14708 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:32:04,844 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:32:05,592 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 17:32:05,628 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2023-11-02 17:32:05,971 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 17:32:06,046 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-02 17:32:06,050 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 17:32:06,238 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:32:06,248 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 17:32:06,264 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 17:32:06,583 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@118f2486
+2023-11-02 17:32:06,585 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 17:32:06,863 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:32:07,369 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 17:32:07,426 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:32:07,917 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 17:32:08,016 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:32:08,296 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 17:32:08,357 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Started InsuranceApplicationTests in 3.557 seconds (process running for 7.637)
+2023-11-02 17:32:08,428 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.service.InsuranceServiceImplTest]: InsuranceServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 17:32:08,434 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.service.InsuranceServiceImplTest
+2023-11-02 17:32:08,455 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Starting InsuranceServiceImplTest using Java 17.0.7 with PID 14708 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:32:08,455 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:32:08,657 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 17:32:08,664 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2023-11-02 17:32:08,773 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 17:32:08,789 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:32:08,790 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 17:32:08,792 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-02 17:32:08,953 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@64d128d0
+2023-11-02 17:32:08,954 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-02 17:32:08,976 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:32:09,026 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 17:32:09,042 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:32:09,214 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 17:32:09,304 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:32:09,466 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 17:32:09,594 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Started InsuranceServiceImplTest in 1.157 seconds (process running for 8.876)
+2023-11-02 17:32:09,823 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:32:09,972 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 17:32:10,054 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 17:32:10,057 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:32:10,058 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-02 17:32:10,210 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2023-11-02 17:33:39,801 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 5632 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:33:39,804 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:33:41,925 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:33:41,965 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 17:33:41,965 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 17:33:41,967 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2023-11-02 17:33:41,992 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.577 seconds (process running for 3.614)
+2023-11-02 17:33:42,337 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.InsuranceApplicationTests]: InsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 17:33:42,347 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.InsuranceApplicationTests
+2023-11-02 17:33:42,395 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Starting InsuranceApplicationTests using Java 17.0.7 with PID 5632 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:33:42,396 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:33:43,143 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 17:33:43,193 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-11-02 17:33:43,577 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 17:33:43,650 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-02 17:33:43,662 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 17:33:43,813 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:33:43,824 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 17:33:43,848 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 17:33:44,332 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16f62062
+2023-11-02 17:33:44,335 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 17:33:44,645 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:33:45,262 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 17:33:45,309 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:33:45,917 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 17:33:46,044 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:33:46,393 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 17:33:46,460 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Started InsuranceApplicationTests in 4.103 seconds (process running for 8.082)
+2023-11-02 17:33:46,531 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.service.InsuranceServiceImplTest]: InsuranceServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 17:33:46,539 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.service.InsuranceServiceImplTest
+2023-11-02 17:33:46,570 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Starting InsuranceServiceImplTest using Java 17.0.7 with PID 5632 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:33:46,571 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:33:46,807 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 17:33:46,817 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2023-11-02 17:33:46,877 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 17:33:46,886 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:33:46,886 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 17:33:46,887 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-02 17:33:47,038 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5f18a661
+2023-11-02 17:33:47,038 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-02 17:33:47,059 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:33:47,079 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 17:33:47,091 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:33:47,172 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 17:33:47,228 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:33:47,309 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 17:33:47,331 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Started InsuranceServiceImplTest in 0.783 seconds (process running for 8.953)
+2023-11-02 17:33:47,412 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:33:47,414 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 17:33:47,424 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 17:33:47,429 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:33:47,429 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-02 17:33:47,544 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2023-11-02 17:56:41,451 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 22420 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:56:41,455 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:56:44,030 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:56:44,077 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 17:56:44,077 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 17:56:44,077 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 0 ms
+2023-11-02 17:56:44,107 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 3.19 seconds (process running for 4.611)
+2023-11-02 17:56:44,544 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.InsuranceApplicationTests]: InsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 17:56:44,561 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.InsuranceApplicationTests
+2023-11-02 17:56:44,610 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Starting InsuranceApplicationTests using Java 17.0.7 with PID 22420 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:56:44,610 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:56:45,369 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 17:56:45,410 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2023-11-02 17:56:45,861 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 17:56:45,997 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-02 17:56:45,997 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 17:56:46,192 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:56:46,207 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 17:56:46,224 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 17:56:46,607 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@893081e
+2023-11-02 17:56:46,609 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 17:56:46,841 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:56:47,400 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 17:56:47,456 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:56:49,565 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 17:56:49,757 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:56:50,800 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 17:56:51,481 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Started InsuranceApplicationTests in 6.907 seconds (process running for 11.98)
+2023-11-02 17:56:51,659 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.service.InsuranceServiceImplTest]: InsuranceServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 17:56:51,741 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.service.InsuranceServiceImplTest
+2023-11-02 17:56:51,853 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Starting InsuranceServiceImplTest using Java 17.0.7 with PID 22420 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 17:56:51,853 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 17:56:52,540 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 17:56:52,563 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-11-02 17:56:52,740 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 17:56:52,753 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:56:52,757 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 17:56:52,758 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-02 17:56:52,929 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@49d5db99
+2023-11-02 17:56:52,932 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-02 17:56:52,958 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 17:56:53,257 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 17:56:53,276 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:56:53,835 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 17:56:54,195 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 17:56:54,983 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 17:56:55,161 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Started InsuranceServiceImplTest in 3.366 seconds (process running for 15.664)
+2023-11-02 17:56:55,560 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:56:55,567 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 17:56:55,592 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 17:56:55,592 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 17:56:55,592 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-02 17:56:55,705 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2023-11-02 18:04:17,770 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 8908 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:04:17,774 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:04:20,495 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:04:20,542 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 18:04:20,542 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 18:04:20,558 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 16 ms
+2023-11-02 18:04:20,573 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 3.38 seconds (process running for 4.622)
+2023-11-02 18:04:21,012 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.InsuranceApplicationTests]: InsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 18:04:21,012 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.InsuranceApplicationTests
+2023-11-02 18:04:21,060 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Starting InsuranceApplicationTests using Java 17.0.7 with PID 8908 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:04:21,060 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:04:21,940 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:04:21,990 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2023-11-02 18:04:22,460 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:04:22,538 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-02 18:04:22,538 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 18:04:22,726 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:04:22,726 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:04:22,741 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 18:04:23,085 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22561412
+2023-11-02 18:04:23,085 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 18:04:23,383 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:04:23,843 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 18:04:23,900 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:04:25,973 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:04:26,142 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:04:27,232 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 18:04:27,778 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Started InsuranceApplicationTests in 6.74 seconds (process running for 11.811)
+2023-11-02 18:04:28,056 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.service.InsuranceServiceImplTest]: InsuranceServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 18:04:28,174 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.service.InsuranceServiceImplTest
+2023-11-02 18:04:28,402 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Starting InsuranceServiceImplTest using Java 17.0.7 with PID 8908 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:04:28,403 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:04:29,468 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:04:29,495 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2023-11-02 18:04:29,717 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:04:29,738 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:04:29,739 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:04:29,742 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-02 18:04:29,936 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@ac3739d
+2023-11-02 18:04:29,937 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-02 18:04:30,157 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:04:30,400 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 18:04:30,422 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:04:30,674 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:04:30,836 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:04:31,113 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 18:04:31,150 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Started InsuranceServiceImplTest in 2.935 seconds (process running for 15.184)
+2023-11-02 18:04:31,332 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:04:31,338 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 18:04:31,350 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 18:04:31,355 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:04:31,360 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-02 18:04:31,472 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2023-11-02 18:09:21,490 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 23804 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:09:21,493 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:09:24,080 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:09:24,146 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 18:09:24,147 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 18:09:24,148 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2023-11-02 18:09:24,195 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 3.118 seconds (process running for 4.164)
+2023-11-02 18:09:24,681 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.InsuranceApplicationTests]: InsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 18:09:24,689 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.InsuranceApplicationTests
+2023-11-02 18:09:24,721 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Starting InsuranceApplicationTests using Java 17.0.7 with PID 23804 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:09:24,721 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:09:25,661 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:09:25,718 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2023-11-02 18:09:26,113 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:09:26,189 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-02 18:09:26,190 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 18:09:26,325 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:09:26,333 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:09:26,351 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 18:09:26,684 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34be7efb
+2023-11-02 18:09:26,686 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 18:09:26,950 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:09:27,482 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 18:09:27,544 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:09:29,529 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:09:30,446 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:09:31,755 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 18:09:32,314 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Started InsuranceApplicationTests in 7.615 seconds (process running for 12.282)
+2023-11-02 18:09:32,708 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.service.InsuranceServiceImplTest]: InsuranceServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 18:09:32,727 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.service.InsuranceServiceImplTest
+2023-11-02 18:09:32,895 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Starting InsuranceServiceImplTest using Java 17.0.7 with PID 23804 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:09:32,895 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:09:34,299 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:09:34,335 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2023-11-02 18:09:34,671 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:09:34,689 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:09:34,689 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:09:34,691 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-02 18:09:34,840 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@62f47cac
+2023-11-02 18:09:34,840 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-02 18:09:34,867 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:09:34,937 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 18:09:35,033 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:09:35,499 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:09:35,909 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:09:37,214 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 18:09:37,564 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Started InsuranceServiceImplTest in 4.831 seconds (process running for 17.533)
+2023-11-02 18:09:37,708 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:09:37,712 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 18:09:37,726 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 18:09:37,730 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:09:37,730 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-02 18:09:37,750 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2023-11-02 18:14:12,659 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 19416 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:14:12,659 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:14:15,504 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:14:15,561 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 18:14:15,561 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 18:14:15,569 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 0 ms
+2023-11-02 18:14:15,601 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 3.414 seconds (process running for 4.593)
+2023-11-02 18:14:15,994 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.InsuranceApplicationTests]: InsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 18:14:16,000 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.InsuranceApplicationTests
+2023-11-02 18:14:16,040 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Starting InsuranceApplicationTests using Java 17.0.7 with PID 19416 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:14:16,041 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:14:16,911 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:14:16,968 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-11-02 18:14:17,444 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:14:17,547 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-02 18:14:17,547 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 18:14:17,776 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:14:17,793 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:14:17,817 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 18:14:18,176 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a358906
+2023-11-02 18:14:18,180 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 18:14:18,430 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:14:18,990 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 18:14:19,048 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:14:19,832 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:14:19,949 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:14:20,462 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 18:14:20,554 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Started InsuranceApplicationTests in 4.545 seconds (process running for 9.546)
+2023-11-02 18:14:20,916 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.service.InsuranceServiceImplTest]: InsuranceServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 18:14:20,932 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.service.InsuranceServiceImplTest
+2023-11-02 18:14:21,076 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Starting InsuranceServiceImplTest using Java 17.0.7 with PID 19416 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:14:21,076 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:14:21,526 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:14:21,543 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2023-11-02 18:14:21,663 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:14:21,676 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:14:21,676 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:14:21,676 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-02 18:14:21,861 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@171b82ea
+2023-11-02 18:14:21,861 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-02 18:14:21,878 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:14:21,993 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 18:14:22,012 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:14:22,490 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:14:22,759 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:14:23,049 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 18:14:23,106 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Started InsuranceServiceImplTest in 2.166 seconds (process running for 12.099)
+2023-11-02 18:14:23,360 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:14:23,368 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 18:14:23,377 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 18:14:23,377 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:14:23,384 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-02 18:14:23,517 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2023-11-02 18:16:17,992 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 14348 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:16:17,992 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:16:20,504 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:16:20,551 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 18:16:20,551 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 18:16:20,551 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 0 ms
+2023-11-02 18:16:20,583 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.97 seconds (process running for 4.049)
+2023-11-02 18:16:21,148 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.InsuranceApplicationTests]: InsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 18:16:21,163 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.InsuranceApplicationTests
+2023-11-02 18:16:21,212 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Starting InsuranceApplicationTests using Java 17.0.7 with PID 14348 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:16:21,212 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:16:22,108 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:16:22,206 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2023-11-02 18:16:22,657 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:16:22,736 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-02 18:16:22,736 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 18:16:22,908 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:16:22,908 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:16:22,923 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 18:16:23,252 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6500e886
+2023-11-02 18:16:23,252 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 18:16:23,488 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:16:23,946 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 18:16:24,001 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:16:24,608 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:16:24,703 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:16:25,049 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 18:16:25,170 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Started InsuranceApplicationTests in 3.988 seconds (process running for 8.634)
+2023-11-02 18:16:25,283 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.service.InsuranceServiceImplTest]: InsuranceServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 18:16:25,283 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.service.InsuranceServiceImplTest
+2023-11-02 18:16:25,311 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Starting InsuranceServiceImplTest using Java 17.0.7 with PID 14348 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 18:16:25,311 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:16:25,549 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:16:25,564 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2023-11-02 18:16:25,642 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:16:25,642 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:16:25,642 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:16:25,642 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-02 18:16:25,800 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@2a8e93db
+2023-11-02 18:16:25,800 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-02 18:16:25,815 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 18:16:25,847 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 18:16:25,862 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:16:25,957 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:16:26,021 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 18:16:26,145 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 18:16:26,161 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Started InsuranceServiceImplTest in 0.868 seconds (process running for 9.623)
+2023-11-02 18:16:26,255 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:16:26,255 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 18:16:26,271 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 18:16:26,271 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:16:26,271 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-02 18:16:26,344 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2023-11-02 21:51:25,840 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 25012 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 21:51:25,840 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 21:51:27,991 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 21:51:28,038 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 21:51:28,038 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 21:51:28,054 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 16 ms
+2023-11-02 21:51:28,085 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.579 seconds (process running for 3.586)
+2023-11-02 21:51:28,504 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.InsuranceApplicationTests]: InsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 21:51:28,520 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.InsuranceApplicationTests
+2023-11-02 21:51:28,567 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Starting InsuranceApplicationTests using Java 17.0.7 with PID 25012 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 21:51:28,567 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 21:51:29,501 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 21:51:29,564 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2023-11-02 21:51:29,971 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 21:51:30,081 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-02 21:51:30,096 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 21:51:30,253 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 21:51:30,263 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 21:51:30,269 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 21:51:30,561 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73c6ae15
+2023-11-02 21:51:30,561 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 21:51:30,832 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 21:51:31,392 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 21:51:31,439 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 21:51:31,962 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 21:51:32,067 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 21:51:32,365 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 21:51:32,417 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Started InsuranceApplicationTests in 3.895 seconds (process running for 7.929)
+2023-11-02 21:51:32,495 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.service.InsuranceServiceImplTest]: InsuranceServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 21:51:32,495 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.service.InsuranceServiceImplTest
+2023-11-02 21:51:32,511 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Starting InsuranceServiceImplTest using Java 17.0.7 with PID 25012 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 21:51:32,511 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 21:51:32,722 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 21:51:32,722 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2023-11-02 21:51:32,800 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 21:51:32,816 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 21:51:32,816 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 21:51:32,816 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-02 21:51:32,973 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@21f134a2
+2023-11-02 21:51:32,973 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-02 21:51:32,988 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 21:51:33,020 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 21:51:33,035 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 21:51:33,176 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 21:51:33,286 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 21:51:33,449 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 21:51:33,465 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Started InsuranceServiceImplTest in 0.971 seconds (process running for 8.978)
+2023-11-02 21:51:33,561 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 21:51:33,567 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 21:51:33,567 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 21:51:33,567 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 21:51:33,567 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-02 21:51:33,667 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.
+2023-11-02 21:52:56,576 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Starting InsuranceControllerTest using Java 17.0.7 with PID 10400 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 21:52:56,578 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 21:52:58,911 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 21:52:58,951 INFO org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-11-02 21:52:58,951 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-11-02 21:52:58,951 INFO org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 0 ms
+2023-11-02 21:52:58,973 INFO com.learn.ms.insurance.controller.InsuranceControllerTest [main] Started InsuranceControllerTest in 2.742 seconds (process running for 3.808)
+2023-11-02 21:52:59,310 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.InsuranceApplicationTests]: InsuranceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 21:52:59,317 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.InsuranceApplicationTests
+2023-11-02 21:52:59,353 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Starting InsuranceApplicationTests using Java 17.0.7 with PID 10400 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 21:52:59,354 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 21:53:00,194 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 21:53:00,248 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-11-02 21:53:00,673 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 21:53:00,798 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-02 21:53:00,802 INFO org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 21:53:01,007 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 21:53:01,016 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 21:53:01,033 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 21:53:01,323 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4806fbf7
+2023-11-02 21:53:01,325 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 21:53:01,590 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 21:53:02,094 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 21:53:02,157 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 21:53:02,611 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 21:53:02,673 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 21:53:02,958 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 21:53:03,013 INFO com.learn.ms.insurance.InsuranceApplicationTests [main] Started InsuranceApplicationTests in 3.689 seconds (process running for 7.848)
+2023-11-02 21:53:03,076 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.learn.ms.insurance.service.InsuranceServiceImplTest]: InsuranceServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-02 21:53:03,094 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.learn.ms.insurance.InsuranceApplication for test class com.learn.ms.insurance.service.InsuranceServiceImplTest
+2023-11-02 21:53:03,108 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Starting InsuranceServiceImplTest using Java 17.0.7 with PID 10400 (started by jithi in C:\Users\jithi\Documents\Microservice-Employee\insurance)
+2023-11-02 21:53:03,108 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 21:53:03,266 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 21:53:03,266 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interfaces.
+2023-11-02 21:53:03,312 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 21:53:03,328 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 21:53:03,328 INFO org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 21:53:03,328 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2023-11-02 21:53:03,470 INFO com.zaxxer.hikari.pool.HikariPool [main] HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@572c50b6
+2023-11-02 21:53:03,470 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-11-02 21:53:03,470 INFO org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-02 21:53:03,502 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-02 21:53:03,517 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 21:53:03,565 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 21:53:03,628 WARN org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-11-02 21:53:03,691 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-11-02 21:53:03,708 INFO com.learn.ms.insurance.service.InsuranceServiceImplTest [main] Started InsuranceServiceImplTest in 0.615 seconds (process running for 8.549)
+2023-11-02 21:53:03,775 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 21:53:03,775 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 21:53:03,792 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 21:53:03,792 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 21:53:03,792 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown initiated...
+2023-11-02 21:53:03,918 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-2 - Shutdown completed.

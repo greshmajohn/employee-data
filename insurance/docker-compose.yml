@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  psql-db:
+    image: insurance
+    container_name: psql-db
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=employee
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./postgresql.conf:/etc/postgres/sql/postgresql.conf
+
+  recipe:
+    container_name: employee_insurance
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8082:8082'
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://psql-db:5432/payroll
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+    depends_on:
+      - psql-db
