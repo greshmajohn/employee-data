@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.employee</groupId>
 	<artifactId>data</artifactId>
+	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>data</name>
 	<description>maintain employee data</description>
